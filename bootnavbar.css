@@ -1,11 +1,11 @@
 
 /* hover dropdown menus */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 991px) {
     .navbar-hover .show > .dropdown-toggle::after{
         transform: rotate(-90deg);
     }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 769px) {
     .navbar-hover .collapse ul li{position:relative;}
     .navbar-hover .collapse ul li:hover> ul{display:block}
     .navbar-hover .collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
