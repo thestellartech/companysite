@@ -63,6 +63,7 @@ try
     
     // Send email
     mail($sendTo, $subject, $emailText, implode("\n", $headers));
+   header("Location: contact.html");
 
     $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
