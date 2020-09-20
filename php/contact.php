@@ -2,9 +2,13 @@
 /*
  *  CONFIGURE EVERYTHING HERE
  */
-
+$name = $_POST['name'];
+$surname = $_POST['surname'];
+$from = $_POST['email'];
+$need = $_POST['need'];
+$message = $_POST['message'];
 // an email address that will be in the From field of the email.
-$from = $_POST['Email'];
+$from = '';
 
 // an email address that will receive the email with the output of the form
 $sendTo = "bharti.kothuri@gmail.com";
@@ -21,6 +25,13 @@ $okMessage = 'Contact form successfully submitted. Thank you, I will get back to
 
 // If something goes wrong, we will display this message.
 $errorMessage = 'There was an error while submitting the form. Please try again later';
+
+
+$email_body = "User Name :$name.\n".
+               "User Surname : $surname.\n".
+               "Üser Email: $from.\n".
+               "User need : $need.\n".
+               "User message : $ message.\n"
 
 /*
  *  LET'S DO THE SENDING
