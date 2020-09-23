@@ -11,9 +11,12 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
+    <!-- Bootstrap core CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/bootnavbar.css">
-
+    <!-- SmartMenus jQuery Bootstrap Addon CSS -->
+<link href="../addons/bootstrap/jquery.smartmenus.bootstrap.css" rel="stylesheet">
 
     <title>THE STELLAR | Emerging leader </title>
 </head>
@@ -21,21 +24,21 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-md navbar-dark  bg-dark navbar-hover sticky-top">
+    <div class="navbar navbar-default-sm navbar-dark  bg-dark  sticky-top">
         <a class="navbar-brand" href="/index.html">THE STELLAR</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHover"
-            aria-controls="navbarDD" aria-expanded="false" aria-label="Navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
+             aria-expanded="false" aria-label="Navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarHover">
-            <ul class="navbar-nav  ">
+        <div class="navbar-collapse collapse in" aria-expanded="true" >
+            <ul class="nav navbar-nav sm-collapsible">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <h9> Lets Meet Stellar</h9>
                     </a>
-                    <ul class="dropdown-menu ">
+                    <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 
                         <li> <a class="dropdown-item" href="/blog.html">Blog</a></li>
                         <li><a class="dropdown-item" href="/events.html">Events</a></li>
@@ -47,7 +50,7 @@
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         <h9> About</h9>
                     </a>
-                    <ul class="dropdown-menu ">
+                    <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <li> <a class="dropdown-item" href="/about.html">Our Company</a></li>
                         <li><a class="dropdown-item" href="/careers.html">Careers</a></li>
                        
@@ -59,15 +62,15 @@
                         Products
                     </a>
 
-                    <ul class="dropdown-menu ">
+                    <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <li><a class="dropdown-item dropdown-toggle" href="#">Office Automation</a>
-                            <ul class="dropdown-menu ">
+                            <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <li><a class="dropdown-item" href="/office.html"> Photocopiers </a></li>
                                 <li><a class="dropdown-item" href="/printers.html"> Printers </a></li>
                             </ul>
                         <li><a class="dropdown-item" href="/visual.html">Visual Solutions</a></li>
                         <li><a class="dropdown-item dropdown-toggle" href="#">Air Purifiers</a>
-                            <ul class="dropdown-menu ">
+                            <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <li><a class="dropdown-item" href="/air.html"> Home </a></li>
                                 <li><a class="dropdown-item" href="/car.html"> Car </a></li>
                             </ul>
@@ -82,15 +85,15 @@
                         Solutions
                     </a>
 
-                    <ul class="dropdown-menu ">
+                    <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <li><a class="dropdown-item dropdown-toggle" href="#">Infrastructure</a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <li> <a class="dropdown-item" href="/av.html"> Smart AV Solutions </a></li>
                             </ul>
                         </li>
 
                         <li><a class="dropdown-item dropdown-toggle" href="#">Health Care</a>
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <li> <a class="dropdown-item" href="/xray.html"> X-Ray Machines </a></li>
                                 <li> <a class="dropdown-item" href="/medical.html"> Medical Equipments and ECP Machines
                                     </a></li>
@@ -98,9 +101,9 @@
                             </ul>
                         </li>
                         <li><a class="dropdown-item dropdown-toggle" href="#"> Covid 19</a>
-                            <ul class="dropdown-menu ">
+                            <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <li><a class="dropdown-item dropdown-toggle" href="#"> ESDS Software</a>
-                                    <ul class="dropdown-menu ">
+                                    <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <li> <a class="dropdown-item" href="/AA.html"> AA+ Covid 19 testing AI Software
                                             </a> </li>
                                         <li> <a class="dropdown-item" href="/AA1.html"> AA+ Covid 19 testing Solution
@@ -108,16 +111,16 @@
                                     </ul>
                                 </li>
                                 <li><a class="dropdown-item dropdown-toggle" href="#"> Covid Solutions</a>
-                                    <ul class="dropdown-menu ">
+                                    <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <li><a class="dropdown-item dropdown-toggle" href="#"> Kiosk Solutions</a>
-                                            <ul class="dropdown-menu ">
+                                            <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <li> <a class="dropdown-item" href="/self.html"> Self Check</a></li>
                                                 <li> <a class="dropdown-item" href="/klean.html"> KleanTube</a></li>
                                             </ul>
                                         </li>
 
                                         <li><a class="dropdown-item dropdown-toggle" href="#"> Wesafetech Solutions</a>
-                                            <ul class="dropdown-menu ">
+                                            <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <li> <a class="dropdown-item" href="/handy.html"> Handy Standy UV
                                                         Solutions</a></li>
                                                 <li> <a class="dropdown-item" href="/safe.html"> UR-Safe Solutions</a>
@@ -130,7 +133,7 @@
                                     </ul>
                                 </li>
                                 <li><a class="dropdown-item dropdown-toggle" href="#"> Airlens Products</a>
-                                    <ul class="dropdown-menu ">
+                                    <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <li><a class="dropdown-item " href="/airlensCar.html"> Airlens Car Air Sanitizer</a>
                                             
                                         </li>
@@ -142,7 +145,7 @@
                             </ul>
                         </li>
                         <li><a class="dropdown-item dropdown-toggle" href="#">Network & Security</a>
-                            <ul class="dropdown-menu ">
+                            <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <li> <a class="dropdown-item" href="/switch.html"> Switching and Routing</a>
                                 </li>
                                 <li> <a class="dropdown-item" href="/wireless.html"> Wireless Solutions</a></li>
@@ -155,14 +158,14 @@
                         </li>
 
                         <li><a class="dropdown-item dropdown-toggle" href="#">Business Solution</a>
-                            <ul class="dropdown-menu ">
+                            <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <li> <a class="dropdown-item" href="/portal.html">Internet and Intranet portel
                                         development</a>
                                 </li>
                             </ul>
                         </li>
                         <li><a class="dropdown-item dropdown-toggle" href="#">Cloud as a Solution</a>
-                            <ul class="dropdown-menu ">
+                            <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <li> <a class="dropdown-item" href="#">O365</a></li>
                                 <li> <a class="dropdown-item" href="#">Azure</a></li>
                                 <li> <a class="dropdown-item" href="#">AWS</a></li>
@@ -170,7 +173,7 @@
                         </li>
                         <li><a class="dropdown-item dropdown-toggle" href="#">Telephony and Unified
                                 Communication</a>
-                            <ul class="dropdown-menu ">
+                            <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <li> <a class="dropdown-item" href="/unified.html"> Unified Communication</a>
                             </ul>
 
@@ -183,7 +186,7 @@
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         Strategic Partnership
                     </a>
-                    <ul class="dropdown-menu ">
+                    <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <li><a class="dropdown-item" href="#">Overview</a></li>
                         <li> <a class="dropdown-item" href="#">Open Products</a></li>
                         <li><a class="dropdown-item" href="#">Alliances</a></li>
@@ -194,7 +197,7 @@
                     <a class="nav-link disabled" href="#"tabindex="-1" aria-disabled="true" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Services</a>
-                    <ul class="dropdown-menu ">
+                    <ul class="dropdown-menu " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <li> <a class="dropdown-item" href="#">Consulting</a></li>
                         <li><a class="dropdown-item" href="#">Resource Management</a></li>
                         <li><a class="dropdown-item" href="#">Managed Services</a>
@@ -322,7 +325,17 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
     <!----animate CSS--->
+    <!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+<!-- SmartMenus jQuery plugin -->
+<script type="text/javascript" src="../jquery.smartmenus.js"></script>
+
+<!-- SmartMenus jQuery Bootstrap Addon -->
+<script type="text/javascript" src="../addons/bootstrap/jquery.smartmenus.bootstrap.js"></script>
 
 
 </body>
