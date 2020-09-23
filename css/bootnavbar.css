@@ -6,7 +6,7 @@
     }
 }
 @media only screen and (min-width: 767px) {
-    .navbar-hover .collapse ul li{position:static;}
+    .navbar-hover .collapse ul li{position:absolute;}
     .navbar-hover .collapse ul li:hover> ul{display:block}
     .navbar-hover .collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
     .navbar-hover .collapse ul ul ul{position:absolute;top:0;left:100%;min-width:250px;display:none}
