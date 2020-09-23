@@ -5,7 +5,7 @@
         transform: rotate(-90deg);
     }
 }
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 767px) {
     .navbar-hover .collapse ul li{position:relative;}
     .navbar-hover .collapse ul li:hover> ul{display:block}
     .navbar-hover .collapse ul ul{position:absolute;top:100%;left:0;min-width:250px;display:none}
