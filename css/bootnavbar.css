@@ -13,5 +13,5 @@
     /*.navbar-hover .collapse ul ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none;z-index:1}*/
 }
 .dropdown-menu {
-    position: absolute;
+    position: relative;
 }
