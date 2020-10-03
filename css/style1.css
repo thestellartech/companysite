@@ -178,10 +178,10 @@ label span {
         visibility: visible;
         opacity: 1;
         border-top: none;
-        text-align-last: left;
+        text-align-last: left !important;
        /* border-left: 5px solid #fff !important;*/
         display: none;
-        list-style: none;
+       
         text-decoration: none !important;
        
     }
