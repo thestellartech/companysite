@@ -17,7 +17,7 @@ nav {
     background-color:black;
     display: flex;
    /* justify-content: space-between;*/
-    align-items: left;  
+    align-items: center;  
     justify-content:space-between ; 
     list-style: none;
     text-decoration: none !important;
@@ -37,7 +37,7 @@ nav {
     font-weight: bolder;
     text-transform: uppercase;
     text-decoration: none !important;
-    margin-right: 20px;
+   margin-left: 20px;
     font-size: 28px;
     color: #fff;
     display: flex;
@@ -86,7 +86,7 @@ nav ul li ul {
     visibility: hidden;
     opacity: 0;
     text-align: center;
-    width: 130%;
+    width: 100%;
     z-index: 1;
     transition: 0.4s linear;
     color: #fff;
