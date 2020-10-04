@@ -85,7 +85,7 @@ nav ul li ul {
     position: absolute;
     visibility: hidden;
     opacity: 0;
-    text-align: center;
+    text-align: left;
     width: 100%;
     z-index: 1;
     transition: 0.4s linear;
