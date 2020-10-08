@@ -86,7 +86,7 @@ nav ul li ul {
     visibility: hidden;
     opacity: 0;
     text-align: left;
-    width: 110%;
+    width: 120%;
     z-index: 1;
     transition: 0.4s linear;
     color: #fff;
